@@ -49,14 +49,14 @@ modules:
       - cp -r bin /app/ecode
       - install -Dm644 libs/linux/libeepp.so "${FLATPAK_DEST}/lib/libeepp.so"
       - install -Dm644 projects/linux/ecode/ecode.desktop "${FLATPAK_DEST}/share/applications/ecode.desktop"
-      - install -Dm644 bin/assets/icon/ee.png "${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/ecode.png"
+      - install -Dm644 bin/assets/icon/ecode.png "${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/ecode.png"
       - ln -s "${FLATPAK_DEST}/ecode/ecode" "${FLATPAK_DEST}/bin/ecode"
       - install -Dm644 dev.ensoft.ecode.metainfo.xml "${FLATPAK_DEST}/share/metainfo/${FLATPAK_ID}.metainfo.xml"
     sources:
       - type: git
         url: https://github.com/SpartanJ/eepp.git
-        tag: ecode-0.4.7
-        commit: 715208b2337d820d2f89150819ec0fd3fcbc8156
+        tag: ecode-0.4.8
+        commit: fae5ec0c3adab348943cb917fe8fbc79bc2069a0
         x-checker-data:
           type: anitya
           project-id: 325538
