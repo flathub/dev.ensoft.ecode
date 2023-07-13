@@ -45,9 +45,9 @@ modules:
     build-commands:
       # https://github.com/SpartanJ/eepp/blob/ca84455fcc399db2ba0ddd0b85b6927f215c4603/projects/linux/ecode/build.app.sh
       - premake5 gmake2
-      - cd make/linux && make config="release_${ARCH}" ecode
+      - cd make/linux && make config="release_${ARCH}" verbose=true ecode
       - cp -r bin /app/ecode
-      - install -Dm644 libs/linux/libeepp.so "${FLATPAK_DEST}/lib/libeepp.so"
+      - install -Dm644 libs/linux/libeepp.so "${FLATPAK_DEST}/lib/${ARCH}/libeepp.so"
       - install -Dm644 projects/linux/ecode/ecode.desktop "${FLATPAK_DEST}/share/applications/ecode.desktop"
       - install -Dm644 bin/assets/icon/ecode.png "${FLATPAK_DEST}/share/icons/hicolor/128x128/apps/ecode.png"
       - ln -s "${FLATPAK_DEST}/ecode/ecode" "${FLATPAK_DEST}/bin/ecode"
@@ -56,7 +56,7 @@ modules:
       - type: git
         url: https://github.com/SpartanJ/eepp.git
         tag: ecode-0.4.9
-        commit: 9b61d249c5e7ef1e9de9bbf332cf2b2ed3439573
+        commit: e6b892cde15cb5763ed3e73c51a70d0ecffa1ce2
         x-checker-data:
           type: anitya
           project-id: 325538
