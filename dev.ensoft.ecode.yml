@@ -44,7 +44,7 @@ modules:
             ARCH: arm64
     build-commands:
       # https://github.com/SpartanJ/eepp/blob/ca84455fcc399db2ba0ddd0b85b6927f215c4603/projects/linux/ecode/build.app.sh
-      - premake5 --with-mojoal gmake2
+      - premake5 gmake2
       - cd make/linux && make config="release_${ARCH}" ecode
       - cp -r bin /app/ecode
       - install -Dm644 libs/linux/libeepp.so "${FLATPAK_DEST}/lib/libeepp.so"
@@ -55,8 +55,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/SpartanJ/eepp.git
-        tag: ecode-0.4.8
-        commit: fae5ec0c3adab348943cb917fe8fbc79bc2069a0
+        tag: ecode-0.4.9
+        commit: 9b61d249c5e7ef1e9de9bbf332cf2b2ed3439573
         x-checker-data:
           type: anitya
           project-id: 325538
