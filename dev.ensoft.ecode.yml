@@ -10,6 +10,8 @@ finish-args:
   - --share=ipc
   - --socket=wayland
   - --socket=fallback-x11
+  - --filesystem=host
+  - --socket=pulseaudio
 
 
 modules:
