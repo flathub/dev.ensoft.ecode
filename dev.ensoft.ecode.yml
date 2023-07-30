@@ -8,10 +8,14 @@ command: ecode
 finish-args:
   - --device=dri
   - --share=ipc
+  - --share=network
   - --socket=wayland
   - --socket=fallback-x11
   - --filesystem=host
+  - --filesystem=/tmp
+  - --filesystem=/var/tmp
   - --socket=pulseaudio
+  - --talk-name=org.freedesktop.Flatpak
 
 
 modules:
@@ -58,7 +62,7 @@ modules:
       - type: git
         url: https://github.com/SpartanJ/eepp.git
         tag: ecode-0.4.92
-        commit: 87afb708519996dbfd5c41b0c07c4cb014336a5f
+        commit: 9814f25696f6136996550dcfd03c43f26fc75bd5
         x-checker-data:
           type: anitya
           project-id: 325538
