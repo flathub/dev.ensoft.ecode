@@ -17,7 +17,6 @@ finish-args:
   - --socket=pulseaudio
   - --talk-name=org.freedesktop.Flatpak
 
-
 modules:
   - shared-modules/SDL2/SDL2-with-libdecor.json
 
