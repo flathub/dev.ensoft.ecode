@@ -8,11 +8,14 @@ command: ecode
 finish-args:
   - --device=dri
   - --share=ipc
+  - --share=network
   - --socket=wayland
   - --socket=fallback-x11
   - --filesystem=host
+  - --filesystem=/tmp
+  - --filesystem=/var/tmp
   - --socket=pulseaudio
-
+  - --talk-name=org.freedesktop.Flatpak
 
 modules:
   - shared-modules/SDL2/SDL2-with-libdecor.json
