@@ -27,14 +27,14 @@
     <url type="faq">https://github.com/SpartanJ/ecode#faq</url>
     <url type="vcs-browser">https://github.com/SpartanJ/eepp/tree/develop/src/tools/ecode</url>
     <releases>
-        <release version="0.4.93" date="2023-09-10"/>
-        <release version="0.4.92" date="2023-07-31"/>
-        <release version="0.4.9" date="2023-07-11"/>
-        <release version="0.4.8" date="2023-03-31"/>
-        <release version="0.4.7" date="2023-03-07"/>
-        <release version="0.4.6" date="2023-02-22"/>
-        <release version="0.4.5" date="2023-02-14"/>
-        <release version="0.4.4" date="2023-02-05"/>
+        <release version="0.4.93" date="2023-09-10" />
+        <release version="0.4.92" date="2023-07-31" />
+        <release version="0.4.9" date="2023-07-11" />
+        <release version="0.4.8" date="2023-03-31" />
+        <release version="0.4.7" date="2023-03-07" />
+        <release version="0.4.6" date="2023-02-22" />
+        <release version="0.4.5" date="2023-02-14" />
+        <release version="0.4.4" date="2023-02-05" />
     </releases>
     <content_rating type="oars-1.1"/>
 </component>
