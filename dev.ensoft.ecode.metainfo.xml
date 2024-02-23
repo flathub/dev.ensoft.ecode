@@ -4,8 +4,7 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>MIT</project_license>
     <name>ecode</name>
-    <summary>Lightweight multi-platform code editor designed for modern hardware with a focus on
-        responsiveness and performance</summary>
+    <summary>Lightweight multi-platform code editor designed for modern hardware with a focus on responsiveness and performance</summary>
     <developer id="dev.ensoft.ecode">
       <name>Martín Lucas Golini</name>
     </developer>
