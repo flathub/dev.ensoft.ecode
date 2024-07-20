@@ -4,8 +4,10 @@
     <metadata_license>CC0-1.0</metadata_license>
     <project_license>MIT</project_license>
     <name>ecode</name>
-    <summary>Lightweight multi-platform code editor designed for modern hardware with a focus on
-        responsiveness and performance.</summary>
+    <summary>Lightweight multi-platform code editor designed for modern hardware with a focus on responsiveness and performance</summary>
+    <developer id="dev.ensoft.ecode">
+      <name>Martín Lucas Golini</name>
+    </developer>
     <description>
         <p>
             ecode is a lightweight multi-platform code editor designed for modern hardware with a
@@ -18,8 +20,8 @@
     <launchable type="desktop-id">dev.ensoft.ecode.desktop</launchable>
     <screenshots>
         <screenshot type="default">
-            <image>
-                https://user-images.githubusercontent.com/650416/249337663-34645f30-d962-47eb-a805-2d9be4054848.png</image>
+            <image>https://github.com/SpartanJ/ecode/assets/650416/7926c3f3-1b3b-4fe5-859a-3099df73b7e8</image>
+            <caption>ecode on Linux</caption>
         </screenshot>
     </screenshots>
     <url type="homepage">https://github.com/SpartanJ/ecode</url>
@@ -27,6 +29,11 @@
     <url type="faq">https://github.com/SpartanJ/ecode#faq</url>
     <url type="vcs-browser">https://github.com/SpartanJ/eepp/tree/develop/src/tools/ecode</url>
     <releases>
+        <release version="0.5.2" date="2024-05-03"/>
+        <release version="0.5.1" date="2024-02-23"/>
+        <release version="0.5.0" date="2023-11-06"/>
+        <release version="0.4.93" date="2023-09-10"/>
+        <release version="0.4.92" date="2023-07-31"/>
         <release version="0.4.9" date="2023-07-11"/>
         <release version="0.4.8" date="2023-03-31"/>
         <release version="0.4.7" date="2023-03-07"/>
