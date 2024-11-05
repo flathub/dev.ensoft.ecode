@@ -60,8 +60,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/SpartanJ/eepp.git
-        tag: ecode-0.6.2
-        commit: 0e0ce716097387edeaaed5cfee2d88ac2efbeb28
+        tag: ecode-0.6.3
+        commit: 6d91ac11d823d633a8a6f238782fd4e406d61dbc
         x-checker-data:
           type: anitya
           project-id: 325538
