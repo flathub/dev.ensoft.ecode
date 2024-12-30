@@ -29,8 +29,8 @@ modules:
       - '*'
     sources:
       - type: archive
-        url: https://github.com/premake/premake-core/releases/download/v5.0.0-beta3/premake-5.0.0-beta3-src.zip
-        sha256: 4b2b1fe9772ca1caf689c07e8c32f108b8393922956f602ddaf404f73467bd83
+        url: https://github.com/premake/premake-core/releases/download/v5.0.0-beta4/premake-5.0.0-beta4-src.zip
+        sha256: 7ed887b3731ef6454b7c1cf99adbecb77f1abee088d0478916db8a4da16a1e82
         x-checker-data:
           type: anitya
           project-id: 3707
