@@ -1,6 +1,6 @@
 app-id: dev.ensoft.ecode
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 rename-desktop-file: ecode.desktop
 rename-icon: ecode
@@ -35,8 +35,6 @@ modules:
           project-id: 3707
           url-template: https://github.com/premake/premake-core/releases/download/v$version/premake-$version-src.zip
           stable-only: false
-
-  - shared-modules/SDL2/SDL2-with-libdecor.json
 
   - name: ecode
     buildsystem: simple
