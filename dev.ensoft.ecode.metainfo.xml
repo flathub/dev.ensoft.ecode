@@ -29,6 +29,9 @@
     <url type="faq">https://github.com/SpartanJ/ecode#faq</url>
     <url type="vcs-browser">https://github.com/SpartanJ/eepp/tree/develop/src/tools/ecode</url>
     <releases>
+        <release version="0.8.1" date="2026-07-21">
+            <description></description>
+        </release>
         <release version="0.8.0" date="2026-04-26"/>
         <release version="0.7.4" date="2026-01-12"/>
         <release version="0.7.3" date="2025-10-17"/>
