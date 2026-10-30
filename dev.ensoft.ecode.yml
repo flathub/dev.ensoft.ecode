@@ -28,12 +28,14 @@ modules:
       - '*'
     sources:
       - type: file
-        url: https://github.com/premake/premake-core/releases/download/v5.0.0-beta7/premake-5.0.0-beta7-src.zip
+        url: 
+          https://github.com/premake/premake-core/releases/download/v5.0.0-beta7/premake-5.0.0-beta7-src.zip
         sha256: d39874aed04e317a46bdd281b193fe58c70457cd07bbd50e1bdcb4729c3a4860
         x-checker-data:
           type: anitya
           project-id: 3707
-          url-template: https://github.com/premake/premake-core/releases/download/v$version/premake-$version-src.zip
+          url-template: 
+            https://github.com/premake/premake-core/releases/download/v$version/premake-$version-src.zip
           stable-only: false
 
   - name: ecode
@@ -59,7 +61,7 @@ modules:
       - type: git
         url: https://github.com/SpartanJ/eepp.git
         tag: ecode-0.9.0
-        commit: 0bebfc616751c6afe64705b3778601e4060b0e20
+        commit: c5e4f4689f79541d5dcf38b122499d8568811222
         x-checker-data:
           type: anitya
           project-id: 325538
