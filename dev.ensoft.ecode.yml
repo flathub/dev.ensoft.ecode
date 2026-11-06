@@ -21,21 +21,18 @@ modules:
   - name: premake5
     buildsystem: simple
     build-commands:
-      - unzip -q premake-5.0.0-beta7-src.zip -d premake-5.0.0-beta7-src
-      - cd premake-5.0.0-beta7-src && make -f Bootstrap.mak -j$(nproc) linux
-      - install -Dm755 -t "${FLATPAK_DEST}/bin" premake-5.0.0-beta7-src/bin/release/premake5
+      - make -f Bootstrap.mak -j$(nproc) linux
+      - install -Dm755 -t "${FLATPAK_DEST}/bin" bin/release/premake5
     cleanup:
       - '*'
     sources:
-      - type: file
-        url: 
-          https://github.com/premake/premake-core/releases/download/v5.0.0-beta7/premake-5.0.0-beta7-src.zip
-        sha256: d39874aed04e317a46bdd281b193fe58c70457cd07bbd50e1bdcb4729c3a4860
+      - type: archive
+        url: https://github.com/premake/premake-core/archive/refs/tags/v5.0.0-beta7.tar.gz
+        sha256: 51c01a1bb48de2bc98c025afd4eeade0059376785337725da7ee323a79e862f0
         x-checker-data:
           type: anitya
           project-id: 3707
-          url-template: 
-            https://github.com/premake/premake-core/releases/download/v$version/premake-$version-src.zip
+          url-template: https://github.com/premake/premake-core/archive/refs/tags/v$version.tar.gz
           stable-only: false
 
   - name: ecode
